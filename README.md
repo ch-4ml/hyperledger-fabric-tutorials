@@ -62,9 +62,9 @@ $ sudo mv go /usr/local
 
 // /usr/local/go/bin/go 디렉토리에 대한 링크(바로가기)를 /usr/local/bin/go에 연결
 $ sudo ln -s /usr/local/go/bin/go /usr/local/bin/go
-$ gedit ~/.profile
 
 // 환경 변수 추가
+$ vi ~/.profile
 $ export GOPATH=$HOME/go
 $ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin
 $ source ~/.profile
