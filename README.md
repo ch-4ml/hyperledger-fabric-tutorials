@@ -1,6 +1,5 @@
 # hyperledger-fabric-tutorials
-hyperledger-fabric 실습입니다.<br>
-fabric-samples의 basic network로 시작해서 organization 확장을 목표로 합니다.
+hyperledger-fabric 개발 환경 구축 튜토리얼입니다.
 
 <br>
 
@@ -72,4 +71,16 @@ $ source ~/.profile
 ```
 <br>
 
+## hyperledger fabric 설치
 
+```
+// hyperledger fabric 설치
+sudo curl -sSL http://bit.ly/2ysbOFE | bash -s
+
+// 환경 변수 수정
+vi ~/.profile
+export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:~/fabric-samples/bin
+
+// 변경 사항 적용
+source ~/.profile
+```
