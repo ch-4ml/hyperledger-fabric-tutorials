@@ -72,17 +72,4 @@ $ source ~/.profile
 ```
 <br>
 
-## Python 2.7 설치
-hyperledger fabric을 작동시키기 위해서는 Python 2.7버전이 필요합니다.<br>
-하지만 Ubuntu 18.04 버전 부터는 python3가 기본으로 구성되어 있기 때문에 별도로 설치가 필요합니다.<br>
-```
-// apt-get 업데이트
-$ sudo apt-get update
 
-// Python 2.7 설치
-$ sudo apt-get install python2.7
-$ sudo apt-get install python-pip python-dev python-setuptools
-
-// 설치된 Python 버전 확인
-$ python --version
-```
