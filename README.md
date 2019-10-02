@@ -75,12 +75,12 @@ $ source ~/.profile
 
 ```
 // hyperledger fabric 설치
-sudo curl -sSL http://bit.ly/2ysbOFE | bash -s
+$ sudo curl -sSL http://bit.ly/2ysbOFE | bash -s
 
 // 환경 변수 수정
-vi ~/.profile
-export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:~/fabric-samples/bin
+$ vi ~/.profile
+$ export PATH=$PATH:/usr/local/go/bin:$GOPATH/bin:~/fabric-samples/bin
 
 // 변경 사항 적용
-source ~/.profile
+$ source ~/.profile
 ```
