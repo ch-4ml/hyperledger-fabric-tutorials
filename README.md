@@ -74,7 +74,7 @@ $ source ~/.profile
 ## hyperledger fabric 설치
 
 ```
-// hyperledger fabric 설치
+// hyperledger fabric 설치 (Docker image 다운로드)
 $ sudo curl -sSL http://bit.ly/2ysbOFE | bash -s
 
 // 환경 변수 수정
